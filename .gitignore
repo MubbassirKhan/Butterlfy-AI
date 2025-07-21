@@ -1,0 +1,55 @@
+# ---- Global ----
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# ---- Python / FastAPI Backend ----
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+
+# Virtual environment
+backend/venv/
+backend/.venv/
+
+# Python cache
+*.egg-info/
+.eggs/
+*.pkl
+*.pth
+*.bak
+
+# Model weights
+backend/models/*.pth
+backend/models/*.pt
+
+# Environment files
+.env
+*.env
+
+# ---- Node/React Frontend ----
+butterfly-frontend/node_modules/
+butterfly-frontend/.env.local
+butterfly-frontend/.env.development.local
+butterfly-frontend/.env.test.local
+butterfly-frontend/.env.production.local
+butterfly-frontend/build/
+butterfly-frontend/dist/
+butterfly-frontend/.parcel-cache/
+
+# ---- IDE / Editor files ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS specific ----
+ehthumbs.db
+Desktop.ini
+
+# ---- Images cache (optional) ----
+Images/__pycache__/
